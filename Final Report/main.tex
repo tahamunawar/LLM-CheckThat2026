@@ -110,7 +110,14 @@ Scientific claim-source retrieval requires matching informal social media claims
 
 \subsection{Task 2: Fact-Checking Numerical Claims}
 
-Numerical claim verification is challenging because models must reason over quantities, dates, temporal scopes, and sometimes conflicting evidence. Prior work on numerical fact-checking benchmarks such as QuanTemp and QuanTemp++ highlights that quantitative claims require more than surface-level textual matching \cite{quantemp, quantempplus}. In LLM-based verification, a further challenge is reasoning drift, where a model begins with a plausible reasoning path but reaches an unsupported verdict after misinterpreting numerical or temporal evidence \cite{verifierfc}. Test-time scaling methods address this by generating multiple candidate reasoning traces, but this shifts the problem toward selecting the most reliable trace. This motivates verifier and reward-model approaches that evaluate reasoning quality rather than only the final answer \cite{lightman2023prm, setlur2024prm}. Our Task 2 methods follow this direction by comparing pointwise scoring, pairwise ranking, order-debiased pairwise prompting, PREPAIR-style structured comparison, and DPO with Bradley-Terry reward modeling for ranking reasoning traces.
+Numerical claim verification is challenging because models must reason over quantities, dates, temporal scopes, and sometimes conflicting evidence. 
+Prior work on numerical fact-checking benchmarks such as QuanTemp and QuanTemp++ highlights that quantitative claims require more than surface-level textual matching \cite{quantemp, quantempplus}. 
+In LLM-based verification, a further challenge is reasoning drift, where a model begins with a plausible reasoning path but reaches an unsupported verdict after misinterpreting numerical or temporal evidence \cite{verifierfc}. 
+Test-time scaling methods address this by generating multiple candidate reasoning traces, but this shifts the problem toward selecting the most reliable trace. 
+This motivates verifier and reward-model approaches that evaluate reasoning quality rather than only the final answer \cite{lightman2023prm, setlur2024prm,GenPRM}. 
+Typically, these approaches utilize either Outcome-Reward Models (ORMs), which evaluate terminal correctness holistically \cite{cobbe2021orm}, or Process-Reward Models (PRMs), which offer dense supervision by scoring intermediate steps to guide state-space search \cite{uesato2022process}. 
+While these verifiers are traditionally trained on labor-intensive step-level human annotations \cite{lightman2023prm}, recent work explores automated advantage-modeling and synthetic training paradigms to improve scaling efficiency \cite{setlur2024prm, lilei2024pqm}.
+Our Task 2 methods follow this direction by comparing pointwise scoring, pairwise ranking, order-debiased pairwise prompting, PREPAIR-style structured comparison, and DPO with Bradley-Terry reward modeling for ranking reasoning traces.
 
 \subsection{Task 3: Generating Full Fact-Checking Articles}
 
@@ -421,6 +428,7 @@ The table below shows the results obtained on the validation dataset:
 \multirow{2}{*}{Spanish} & Macro-F1 & 0.3654 & --- & 0.3804 & 0.3807 & 0.4003 & \textbf{0.4049} \\
 & Recall@5 & 0.2401 & --- & 0.2425 & 0.2422 & 0.2090 & \textbf{0.2574} \\
 \bottomrule
+  \multicolumn{8}{p{15cm}}{\raggedright \footnotesize \textit English is reported as an internal result, whereas Spanish and Arabic have official submissions.}
 \end{tabular}
 \end{table}
 
@@ -479,7 +487,7 @@ For Task 3, we built a staged LLM-assisted article-generation pipeline with cons
 Across all three tasks, our results suggest that decomposed fact-checking pipelines are useful because retrieval, reasoning-trace ranking, evidence selection, and article generation introduce different failure modes. Future work should focus on stronger validation strategies, multilingual calibration, and tighter integration between citation-aware generation and entailment-based checking.
 
 \section*{Declaration on Generative AI}
-During the preparation of this work, the authors used Generative AI tools (Gemini and NotebookLM) for the following purposes: Generate literature review, Drafting content, and Paraphrase and reword. After using these tools, the authors reviewed, edited, and verified the resulting content as needed and take full responsibility for the publication's content.
+During the preparation of this work, the authors used Generative AI tools (Gemini and NotebookLM) for the following purposes: generate literature review, drafting content, and paraphrase and reword. After using these tools, the authors reviewed, edited, and verified the resulting content as needed and take full responsibility for the publication's content.
 
 Furthermore, separate from the writing process, Gemini models were utilized as core functional components within the implemented Task 3 system pipeline for source usability triage, claim-aware evidence extraction, and fact-checking article generation.
 
