@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex main"] 1783357482.54873 "main.aux" "main.bbl" "main" 1783357599.9118 0
+["bibtex main"] 1783357482.54873 "main.aux" "main.bbl" "main" 1783357870.63369 0
   "./sample-ceur.bib" 1783357405.0512 12596 4368169b8d8ebb783bd0689a2828833e ""
   "/usr/local/texlive/2026/texmf-dist/bibtex/bst/elsarticle/elsarticle-num-names.bst" 1767996394 28896 ef8ea1833e4d69d9f60b6db23b4bea61 ""
-  "main.aux" 1783357599.16931 29288 09d6f92b33ca37449100b0c16ee29c38 "pdflatex"
+  "main.aux" 1783357870.08656 29288 09d6f92b33ca37449100b0c16ee29c38 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1783357593.84549 "/home/abdullah/Desktop/LLM/LLM-CheckThat2026/Final Report/main.tex" "main.pdf" "main" 1783357599.91215 0
-  "/home/abdullah/Desktop/LLM/LLM-CheckThat2026/Final Report/main.tex" 1783357593.59817 40392 dcdba9f85ad0dc4dad3449722adcf50c ""
+["pdflatex"] 1783357865.19208 "/home/abdullah/Desktop/LLM/LLM-CheckThat2026/Final Report/main.tex" "main.pdf" "main" 1783357870.63417 0
+  "/home/abdullah/Desktop/LLM/LLM-CheckThat2026/Final Report/main.tex" 1783357864.88092 40392 44a200d4b964c588b710ba976e38b645 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/libertinus-type1/lbn1_75t36g.enc" 1727126258 3035 7d37ee7011b797a1b8ca3680e8da3d4d ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/libertinus-type1/lbn1_hvvyjb.enc" 1727126258 3042 e745bbb5ec46764a4020493270d457fb ""
@@ -306,12 +306,12 @@
   "/usr/local/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1781048733 3656661 ce15e24e02479a1e83882c4710b4e822 ""
   "/usr/local/texlive/2026/texmf.cnf" 1781048642.8028 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "ceurart.cls" 1783350974.46799 82006 622c39491db0a4aca57744187b3d2649 ""
-  "main.abs" 1783357596.44112 1105 b43debc50f704cabed0d0a51bdad3a46 "pdflatex"
-  "main.aux" 1783357599.16931 29288 09d6f92b33ca37449100b0c16ee29c38 "pdflatex"
+  "main.abs" 1783357867.45343 1105 b43debc50f704cabed0d0a51bdad3a46 "pdflatex"
+  "main.aux" 1783357870.08656 29288 09d6f92b33ca37449100b0c16ee29c38 "pdflatex"
   "main.bbl" 1783357482.6952 15721 591ac95dce9876076b51a4c119fd2aca "bibtex main"
-  "main.tex" 1783357593.59817 40392 dcdba9f85ad0dc4dad3449722adcf50c ""
-  "main.xmpdata" 1783357599.18932 534 a4b6326bd50d1965dad5c4325d65c156 "pdflatex"
-  "pdfa.xmpi" 1783357595.38504 6649 c2c7b91045f56110ec1b3da20a0e2e2f "pdflatex"
+  "main.tex" 1783357864.88092 40392 44a200d4b964c588b710ba976e38b645 ""
+  "main.xmpdata" 1783357870.10056 534 a4b6326bd50d1965dad5c4325d65c156 "pdflatex"
+  "pdfa.xmpi" 1783357866.55238 6649 dad9774e9b6e3fbadcfe7602f9ab57fb "pdflatex"
   "task1_alpha_sweep.png" 1783350974.47913 498288 cedc57f499e5c145c84260a843c5ed48 ""
   (generated)
   "main.abs"
