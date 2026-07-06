@@ -12,105 +12,274 @@
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
 %Type = Inproceedings
-\bibitem[{Stru{\ss} et~al.(2026)Stru{\ss}, Schellhammer, Dietze, V., Setty, Chakraborty, Nakov, Anand, Chungkham, Hafid, Sahnan, and Todorov}]{10.1007/978-3-032-21321-1_43}
-\bibinfo{author}{J.~M. Stru{\ss}}, \bibinfo{author}{S.~Schellhammer}, \bibinfo{author}{S.~Dietze}, \bibinfo{author}{V.~V.}, \bibinfo{author}{V.~Setty}, \bibinfo{author}{T.~Chakraborty}, \bibinfo{author}{P.~Nakov}, \bibinfo{author}{A.~Anand}, \bibinfo{author}{P.~Chungkham}, \bibinfo{author}{S.~Hafid}, \bibinfo{author}{D.~Sahnan}, \bibinfo{author}{K.~Todorov},
-\newblock \bibinfo{title}{The clef-2026 checkthat! lab: Advancing multilingual fact-checking},
-\newblock in: \bibinfo{editor}{R.~Campos}, \bibinfo{editor}{A.~Jatowt}, \bibinfo{editor}{Y.~Lan}, \bibinfo{editor}{M.~Aliannejadi}, \bibinfo{editor}{C.~Bauer}, \bibinfo{editor}{S.~MacAvaney}, \bibinfo{editor}{A.~Anand}, \bibinfo{editor}{Z.~Ren}, \bibinfo{editor}{S.~Verberne}, \bibinfo{editor}{N.~Bai}, \bibinfo{editor}{M.~Mansoury} (Eds.), \bibinfo{booktitle}{Advances in Information Retrieval}, \bibinfo{publisher}{Springer Nature Switzerland}, \bibinfo{address}{Cham}, \bibinfo{year}{2026}, pp. \bibinfo{pages}{325--335}.
+\bibitem[{Stru{\ss} et~al.(2026)Stru{\ss}, Schellhammer, Dietze, V., Setty,
+  Chakraborty, Nakov, Anand, Chungkham, Hafid, Sahnan, and
+  Todorov}]{10.1007/978-3-032-21321-1_43}
+\bibinfo{author}{J.~M. Stru{\ss}}, \bibinfo{author}{S.~Schellhammer},
+  \bibinfo{author}{S.~Dietze}, \bibinfo{author}{V.~V.},
+  \bibinfo{author}{V.~Setty}, \bibinfo{author}{T.~Chakraborty},
+  \bibinfo{author}{P.~Nakov}, \bibinfo{author}{A.~Anand},
+  \bibinfo{author}{P.~Chungkham}, \bibinfo{author}{S.~Hafid},
+  \bibinfo{author}{D.~Sahnan}, \bibinfo{author}{K.~Todorov},
+\newblock \bibinfo{title}{The clef-2026 checkthat! lab: Advancing multilingual
+  fact-checking},
+\newblock in: \bibinfo{editor}{R.~Campos}, \bibinfo{editor}{A.~Jatowt},
+  \bibinfo{editor}{Y.~Lan}, \bibinfo{editor}{M.~Aliannejadi},
+  \bibinfo{editor}{C.~Bauer}, \bibinfo{editor}{S.~MacAvaney},
+  \bibinfo{editor}{A.~Anand}, \bibinfo{editor}{Z.~Ren},
+  \bibinfo{editor}{S.~Verberne}, \bibinfo{editor}{N.~Bai},
+  \bibinfo{editor}{M.~Mansoury} (Eds.), \bibinfo{booktitle}{Advances in
+  Information Retrieval}, \bibinfo{publisher}{Springer Nature Switzerland},
+  \bibinfo{address}{Cham}, \bibinfo{year}{2026}, pp. \bibinfo{pages}{325--335}.
 %Type = Misc
-\bibitem[{Hafid et~al.(2025)Hafid, Kartal, Schellhammer, Boland, Dimitrov, Bringay, Todorov, and Dietze}]{hafid2025overview}
-\bibinfo{author}{S.~Hafid}, \bibinfo{author}{Y.~S. Kartal}, \bibinfo{author}{S.~Schellhammer}, \bibinfo{author}{K.~Boland}, \bibinfo{author}{D.~Dimitrov}, \bibinfo{author}{S.~Bringay}, \bibinfo{author}{K.~Todorov}, \bibinfo{author}{S.~Dietze}, \bibinfo{title}{Overview of the {CLEF-2025} {CheckThat!} lab task 4 on scientific web discourse}, \bibinfo{year}{2025}. \URLprefix \url{https://ceur-ws.org/Vol-4038/paper_54.pdf}.
+\bibitem[{Hafid et~al.(2025)Hafid, Kartal, Schellhammer, Boland, Dimitrov,
+  Bringay, Todorov, and Dietze}]{hafid2025overview}
+\bibinfo{author}{S.~Hafid}, \bibinfo{author}{Y.~S. Kartal},
+  \bibinfo{author}{S.~Schellhammer}, \bibinfo{author}{K.~Boland},
+  \bibinfo{author}{D.~Dimitrov}, \bibinfo{author}{S.~Bringay},
+  \bibinfo{author}{K.~Todorov}, \bibinfo{author}{S.~Dietze},
+  \bibinfo{title}{Overview of the {CLEF-2025} {CheckThat!} lab task 4 on
+  scientific web discourse}, \bibinfo{year}{2025}. \URLprefix
+  \url{https://ceur-ws.org/Vol-4038/paper_54.pdf}.
 %Type = Misc
-\bibitem[{Staudinger et~al.(2025)Staudinger, El-Ebshihy, Kusa, Piroi, and Hanbury}]{staudinger2025atom}
-\bibinfo{author}{M.~Staudinger}, \bibinfo{author}{A.~El-Ebshihy}, \bibinfo{author}{W.~Kusa}, \bibinfo{author}{F.~Piroi}, \bibinfo{author}{A.~Hanbury}, \bibinfo{title}{{ATOM} at {CheckThat!} 2025: Retrieve the implicit - scientific evidence retrieval}, \bibinfo{year}{2025}. \URLprefix \url{https://ceur-ws.org/Vol-4038/paper_98.pdf}.
+\bibitem[{Staudinger et~al.(2025)Staudinger, El-Ebshihy, Kusa, Piroi, and
+  Hanbury}]{staudinger2025atom}
+\bibinfo{author}{M.~Staudinger}, \bibinfo{author}{A.~El-Ebshihy},
+  \bibinfo{author}{W.~Kusa}, \bibinfo{author}{F.~Piroi},
+  \bibinfo{author}{A.~Hanbury}, \bibinfo{title}{{ATOM} at {CheckThat!} 2025:
+  Retrieve the implicit - scientific evidence retrieval}, \bibinfo{year}{2025}.
+  \URLprefix \url{https://ceur-ws.org/Vol-4038/paper_98.pdf}.
 %Type = Misc
-\bibitem[{Sager et~al.(2025)Sager, Kamaraj, Grewe, and Stadelmann}]{sager2025deep}
-\bibinfo{author}{P.~J. Sager}, \bibinfo{author}{A.~Kamaraj}, \bibinfo{author}{B.~F. Grewe}, \bibinfo{author}{T.~Stadelmann}, \bibinfo{title}{Deep retrieval at {CheckThat!} 2025: Identifying scientific papers from implicit social media mentions via hybrid retrieval and re-ranking}, \bibinfo{year}{2025}. \URLprefix \url{https://ceur-ws.org/Vol-4038/paper_89.pdf}.
+\bibitem[{Sager et~al.(2025)Sager, Kamaraj, Grewe, and
+  Stadelmann}]{sager2025deep}
+\bibinfo{author}{P.~J. Sager}, \bibinfo{author}{A.~Kamaraj},
+  \bibinfo{author}{B.~F. Grewe}, \bibinfo{author}{T.~Stadelmann},
+  \bibinfo{title}{Deep retrieval at {CheckThat!} 2025: Identifying scientific
+  papers from implicit social media mentions via hybrid retrieval and
+  re-ranking}, \bibinfo{year}{2025}. \URLprefix
+  \url{https://ceur-ws.org/Vol-4038/paper_89.pdf}.
 %Type = Misc
-\bibitem[{Thapliyal et~al.(2025)Thapliyal, Chavan, Samridh, Zuo, and Banerjee}]{thapliyal2025scire}
-\bibinfo{author}{P.~M. Thapliyal}, \bibinfo{author}{R.~S. Chavan}, \bibinfo{author}{S.~Samridh}, \bibinfo{author}{C.~Zuo}, \bibinfo{author}{R.~Banerjee}, \bibinfo{title}{{SCIRE} at {CheckThat!} 2025: Bridging social media, scientific discourse, and scientific literature}, \bibinfo{year}{2025}. \URLprefix \url{https://ceur-ws.org/Vol-4038/paper_99.pdf}.
+\bibitem[{Thapliyal et~al.(2025)Thapliyal, Chavan, Samridh, Zuo, and
+  Banerjee}]{thapliyal2025scire}
+\bibinfo{author}{P.~M. Thapliyal}, \bibinfo{author}{R.~S. Chavan},
+  \bibinfo{author}{S.~Samridh}, \bibinfo{author}{C.~Zuo},
+  \bibinfo{author}{R.~Banerjee}, \bibinfo{title}{{SCIRE} at {CheckThat!} 2025:
+  Bridging social media, scientific discourse, and scientific literature},
+  \bibinfo{year}{2025}. \URLprefix
+  \url{https://ceur-ws.org/Vol-4038/paper_99.pdf}.
 %Type = Misc
-\bibitem[{Ashbaugh et~al.(2025)Ashbaugh, Baumgärtner, Greß, Sidorov, and Werner}]{ashbaugh2025airwaves}
-\bibinfo{author}{C.~Ashbaugh}, \bibinfo{author}{L.~Baumgärtner}, \bibinfo{author}{T.~Greß}, \bibinfo{author}{N.~Sidorov}, \bibinfo{author}{D.~Werner}, \bibinfo{title}{{AIRwaves} at {CheckThat!} 2025: Retrieving scientific sources for implicit claims on social media with dual encoders and neural re-ranking}, \bibinfo{year}{2025}. \URLprefix \url{https://ceur-ws.org/Vol-4038/paper_63.pdf}.
+\bibitem[{Ashbaugh et~al.(2025)Ashbaugh, Baumgärtner, Greß, Sidorov, and
+  Werner}]{ashbaugh2025airwaves}
+\bibinfo{author}{C.~Ashbaugh}, \bibinfo{author}{L.~Baumgärtner},
+  \bibinfo{author}{T.~Greß}, \bibinfo{author}{N.~Sidorov},
+  \bibinfo{author}{D.~Werner}, \bibinfo{title}{{AIRwaves} at {CheckThat!} 2025:
+  Retrieving scientific sources for implicit claims on social media with dual
+  encoders and neural re-ranking}, \bibinfo{year}{2025}. \URLprefix
+  \url{https://ceur-ws.org/Vol-4038/paper_63.pdf}.
 %Type = Misc
 \bibitem[{V et~al.(2024)V, Anand, Anand, and Setty}]{quantemp}
-\bibinfo{author}{V.~V}, \bibinfo{author}{A.~Anand}, \bibinfo{author}{A.~Anand}, \bibinfo{author}{V.~Setty}, \bibinfo{title}{Quantemp: A real-world open-domain benchmark for fact-checking numerical claims}, \bibinfo{year}{2024}. \URLprefix \url{https://arxiv.org/abs/2403.17169}.
+\bibinfo{author}{V.~V}, \bibinfo{author}{A.~Anand}, \bibinfo{author}{A.~Anand},
+  \bibinfo{author}{V.~Setty}, \bibinfo{title}{Quantemp: A real-world
+  open-domain benchmark for fact-checking numerical claims},
+  \bibinfo{year}{2024}. \URLprefix \url{https://arxiv.org/abs/2403.17169}.
 %Type = Misc
 \bibitem[{Venktesh et~al.(2025)Venktesh, Prabhu, and Anand}]{quantempplus}
-\bibinfo{author}{V.~Venktesh}, \bibinfo{author}{D.~Prabhu}, \bibinfo{author}{A.~Anand}, \bibinfo{title}{A benchmark for open-domain numerical fact-checking enhanced by claim decomposition}, \bibinfo{year}{2025}. \URLprefix \url{https://arxiv.org/abs/2510.22055}.
+\bibinfo{author}{V.~Venktesh}, \bibinfo{author}{D.~Prabhu},
+  \bibinfo{author}{A.~Anand}, \bibinfo{title}{A benchmark for open-domain
+  numerical fact-checking enhanced by claim decomposition},
+  \bibinfo{year}{2025}. \URLprefix \url{https://arxiv.org/abs/2510.22055}.
 %Type = Misc
-\bibitem[{Chungkham et~al.(2025)Chungkham, Venktesh, Setty, and Anand}]{verifierfc}
-\bibinfo{author}{P.~Chungkham}, \bibinfo{author}{V.~Venktesh}, \bibinfo{author}{V.~Setty}, \bibinfo{author}{A.~Anand}, \bibinfo{title}{Think right, not more: Test-time scaling for numerical claim verification}, \bibinfo{year}{2025}. \URLprefix \url{https://arxiv.org/abs/2509.22101}.
+\bibitem[{Chungkham et~al.(2025)Chungkham, Venktesh, Setty, and
+  Anand}]{verifierfc}
+\bibinfo{author}{P.~Chungkham}, \bibinfo{author}{V.~Venktesh},
+  \bibinfo{author}{V.~Setty}, \bibinfo{author}{A.~Anand}, \bibinfo{title}{Think
+  right, not more: Test-time scaling for numerical claim verification},
+  \bibinfo{year}{2025}. \URLprefix \url{https://arxiv.org/abs/2509.22101}.
 %Type = Misc
-\bibitem[{Lightman et~al.(2023)Lightman, Kosaraju, Burda, Edwards, Baker, Lee, Leike, Schulman, Sutskever, and Cobbe}]{lightman2023prm}
-\bibinfo{author}{H.~Lightman}, \bibinfo{author}{V.~Kosaraju}, \bibinfo{author}{Y.~Burda}, \bibinfo{author}{H.~Edwards}, \bibinfo{author}{B.~Baker}, \bibinfo{author}{T.~Lee}, \bibinfo{author}{J.~Leike}, \bibinfo{author}{J.~Schulman}, \bibinfo{author}{I.~Sutskever}, \bibinfo{author}{K.~Cobbe}, \bibinfo{title}{Let's verify step by step}, \bibinfo{year}{2023}. \URLprefix \url{https://arxiv.org/abs/2305.20050}.
+\bibitem[{Lightman et~al.(2023)Lightman, Kosaraju, Burda, Edwards, Baker, Lee,
+  Leike, Schulman, Sutskever, and Cobbe}]{lightman2023prm}
+\bibinfo{author}{H.~Lightman}, \bibinfo{author}{V.~Kosaraju},
+  \bibinfo{author}{Y.~Burda}, \bibinfo{author}{H.~Edwards},
+  \bibinfo{author}{B.~Baker}, \bibinfo{author}{T.~Lee},
+  \bibinfo{author}{J.~Leike}, \bibinfo{author}{J.~Schulman},
+  \bibinfo{author}{I.~Sutskever}, \bibinfo{author}{K.~Cobbe},
+  \bibinfo{title}{Let's verify step by step}, \bibinfo{year}{2023}. \URLprefix
+  \url{https://arxiv.org/abs/2305.20050}.
 %Type = Misc
-\bibitem[{Setlur et~al.(2024)Setlur, Nagpal, Fisch, Geng, Eisenstein, Agarwal, Agarwal, Berant, and Kumar}]{setlur2024prm}
-\bibinfo{author}{A.~Setlur}, \bibinfo{author}{C.~Nagpal}, \bibinfo{author}{A.~Fisch}, \bibinfo{author}{X.~Geng}, \bibinfo{author}{J.~Eisenstein}, \bibinfo{author}{R.~Agarwal}, \bibinfo{author}{A.~Agarwal}, \bibinfo{author}{J.~Berant}, \bibinfo{author}{A.~Kumar}, \bibinfo{title}{Rewarding progress: Scaling automated process verifiers for llm reasoning}, \bibinfo{year}{2024}. \URLprefix \url{https://arxiv.org/abs/2410.08146}.
+\bibitem[{Setlur et~al.(2024)Setlur, Nagpal, Fisch, Geng, Eisenstein, Agarwal,
+  Agarwal, Berant, and Kumar}]{setlur2024prm}
+\bibinfo{author}{A.~Setlur}, \bibinfo{author}{C.~Nagpal},
+  \bibinfo{author}{A.~Fisch}, \bibinfo{author}{X.~Geng},
+  \bibinfo{author}{J.~Eisenstein}, \bibinfo{author}{R.~Agarwal},
+  \bibinfo{author}{A.~Agarwal}, \bibinfo{author}{J.~Berant},
+  \bibinfo{author}{A.~Kumar}, \bibinfo{title}{Rewarding progress: Scaling
+  automated process verifiers for llm reasoning}, \bibinfo{year}{2024}.
+  \URLprefix \url{https://arxiv.org/abs/2410.08146}.
 %Type = Misc
-\bibitem[{Zhao et~al.(2025)Zhao, Liu, Zhang, Zhou, Gao, Li, Lyu, Qian, Qi, Li, and Zhou}]{GenPRM}
-\bibinfo{author}{J.~Zhao}, \bibinfo{author}{R.~Liu}, \bibinfo{author}{K.~Zhang}, \bibinfo{author}{Z.~Zhou}, \bibinfo{author}{J.~Gao}, \bibinfo{author}{D.~Li}, \bibinfo{author}{J.~Lyu}, \bibinfo{author}{Z.~Qian}, \bibinfo{author}{B.~Qi}, \bibinfo{author}{X.~Li}, \bibinfo{author}{B.~Zhou}, \bibinfo{title}{Genprm: Scaling test-time compute of process reward models via generative reasoning}, \bibinfo{year}{2025}. \URLprefix \url{https://arxiv.org/abs/2504.00891}. \href{http://arxiv.org/abs/2504.00891}{{\tt arXiv:2504.00891}}.
+\bibitem[{Zhao et~al.(2025)Zhao, Liu, Zhang, Zhou, Gao, Li, Lyu, Qian, Qi, Li,
+  and Zhou}]{GenPRM}
+\bibinfo{author}{J.~Zhao}, \bibinfo{author}{R.~Liu},
+  \bibinfo{author}{K.~Zhang}, \bibinfo{author}{Z.~Zhou},
+  \bibinfo{author}{J.~Gao}, \bibinfo{author}{D.~Li}, \bibinfo{author}{J.~Lyu},
+  \bibinfo{author}{Z.~Qian}, \bibinfo{author}{B.~Qi}, \bibinfo{author}{X.~Li},
+  \bibinfo{author}{B.~Zhou}, \bibinfo{title}{Genprm: Scaling test-time compute
+  of process reward models via generative reasoning}, \bibinfo{year}{2025}.
+  \URLprefix \url{https://arxiv.org/abs/2504.00891}.
+  \href{http://arxiv.org/abs/2504.00891}{{\tt arXiv:2504.00891}}.
 %Type = Misc
-\bibitem[{Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser, Plappert, Tworek, Hilton, Nakano, Hesse, and Schulman}]{cobbe2021orm}
-\bibinfo{author}{K.~Cobbe}, \bibinfo{author}{V.~Kosaraju}, \bibinfo{author}{M.~Bavarian}, \bibinfo{author}{M.~Chen}, \bibinfo{author}{H.~Jun}, \bibinfo{author}{L.~Kaiser}, \bibinfo{author}{M.~Plappert}, \bibinfo{author}{J.~Tworek}, \bibinfo{author}{J.~Hilton}, \bibinfo{author}{R.~Nakano}, \bibinfo{author}{C.~Hesse}, \bibinfo{author}{J.~Schulman}, \bibinfo{title}{Training verifiers to solve math word problems}, \bibinfo{year}{2021}. \URLprefix \url{https://arxiv.org/abs/2110.14168}. \href{http://arxiv.org/abs/2110.14168}{{\tt arXiv:2110.14168}}.
+\bibitem[{Cobbe et~al.(2021)Cobbe, Kosaraju, Bavarian, Chen, Jun, Kaiser,
+  Plappert, Tworek, Hilton, Nakano, Hesse, and Schulman}]{cobbe2021orm}
+\bibinfo{author}{K.~Cobbe}, \bibinfo{author}{V.~Kosaraju},
+  \bibinfo{author}{M.~Bavarian}, \bibinfo{author}{M.~Chen},
+  \bibinfo{author}{H.~Jun}, \bibinfo{author}{L.~Kaiser},
+  \bibinfo{author}{M.~Plappert}, \bibinfo{author}{J.~Tworek},
+  \bibinfo{author}{J.~Hilton}, \bibinfo{author}{R.~Nakano},
+  \bibinfo{author}{C.~Hesse}, \bibinfo{author}{J.~Schulman},
+  \bibinfo{title}{Training verifiers to solve math word problems},
+  \bibinfo{year}{2021}. \URLprefix \url{https://arxiv.org/abs/2110.14168}.
+  \href{http://arxiv.org/abs/2110.14168}{{\tt arXiv:2110.14168}}.
 %Type = Misc
-\bibitem[{Uesato et~al.(2022)Uesato, Kushman, Kumar, Song, Siegel, Wang, Creswell, Irving, and Higgins}]{uesato2022process}
-\bibinfo{author}{J.~Uesato}, \bibinfo{author}{N.~Kushman}, \bibinfo{author}{R.~Kumar}, \bibinfo{author}{F.~Song}, \bibinfo{author}{N.~Siegel}, \bibinfo{author}{L.~Wang}, \bibinfo{author}{A.~Creswell}, \bibinfo{author}{G.~Irving}, \bibinfo{author}{I.~Higgins}, \bibinfo{title}{Solving math word problems with process- and outcome-based feedback}, \bibinfo{year}{2022}. \URLprefix \url{https://arxiv.org/abs/2211.14275}. \href{http://arxiv.org/abs/2211.14275}{{\tt arXiv:2211.14275}}.
+\bibitem[{Uesato et~al.(2022)Uesato, Kushman, Kumar, Song, Siegel, Wang,
+  Creswell, Irving, and Higgins}]{uesato2022process}
+\bibinfo{author}{J.~Uesato}, \bibinfo{author}{N.~Kushman},
+  \bibinfo{author}{R.~Kumar}, \bibinfo{author}{F.~Song},
+  \bibinfo{author}{N.~Siegel}, \bibinfo{author}{L.~Wang},
+  \bibinfo{author}{A.~Creswell}, \bibinfo{author}{G.~Irving},
+  \bibinfo{author}{I.~Higgins}, \bibinfo{title}{Solving math word problems with
+  process- and outcome-based feedback}, \bibinfo{year}{2022}. \URLprefix
+  \url{https://arxiv.org/abs/2211.14275}.
+  \href{http://arxiv.org/abs/2211.14275}{{\tt arXiv:2211.14275}}.
 %Type = Misc
 \bibitem[{Li and Li(2025)}]{lilei2024pqm}
-\bibinfo{author}{W.~Li}, \bibinfo{author}{Y.~Li}, \bibinfo{title}{Process reward model with q-value rankings}, \bibinfo{year}{2025}. \URLprefix \url{https://arxiv.org/abs/2410.11287}. \href{http://arxiv.org/abs/2410.11287}{{\tt arXiv:2410.11287}}.
+\bibinfo{author}{W.~Li}, \bibinfo{author}{Y.~Li}, \bibinfo{title}{Process
+  reward model with q-value rankings}, \bibinfo{year}{2025}. \URLprefix
+  \url{https://arxiv.org/abs/2410.11287}.
+  \href{http://arxiv.org/abs/2410.11287}{{\tt arXiv:2410.11287}}.
 %Type = Inproceedings
-\bibitem[{Atanasova et~al.(2020)Atanasova, Simonsen, Lioma, and Augenstein}]{atanasova2020generating}
-\bibinfo{author}{P.~Atanasova}, \bibinfo{author}{J.~G. Simonsen}, \bibinfo{author}{C.~Lioma}, \bibinfo{author}{I.~Augenstein},
+\bibitem[{Atanasova et~al.(2020)Atanasova, Simonsen, Lioma, and
+  Augenstein}]{atanasova2020generating}
+\bibinfo{author}{P.~Atanasova}, \bibinfo{author}{J.~G. Simonsen},
+  \bibinfo{author}{C.~Lioma}, \bibinfo{author}{I.~Augenstein},
 \newblock \bibinfo{title}{Generating fact checking explanations},
-\newblock in: \bibinfo{booktitle}{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}, \bibinfo{publisher}{Association for Computational Linguistics}, \bibinfo{year}{2020}, pp. \bibinfo{pages}{7352--7364}. \URLprefix \url{https://aclanthology.org/2020.acl-main.656/}.
+\newblock in: \bibinfo{booktitle}{Proceedings of the 58th Annual Meeting of the
+  Association for Computational Linguistics}, \bibinfo{publisher}{Association
+  for Computational Linguistics}, \bibinfo{year}{2020}, pp.
+  \bibinfo{pages}{7352--7364}. \URLprefix
+  \url{https://aclanthology.org/2020.acl-main.656/}.
 %Type = Article
-\bibitem[{Sahnan et~al.(2026)Sahnan, Corney, Larraz, Zagni, Miguez, Xie, Gurevych, Churchill, Chakraborty, and Nakov}]{sahnan2026qraft}
-\bibinfo{author}{D.~Sahnan}, \bibinfo{author}{D.~Corney}, \bibinfo{author}{I.~Larraz}, \bibinfo{author}{G.~Zagni}, \bibinfo{author}{R.~Miguez}, \bibinfo{author}{Z.~Xie}, \bibinfo{author}{I.~Gurevych}, \bibinfo{author}{E.~Churchill}, \bibinfo{author}{T.~Chakraborty}, \bibinfo{author}{P.~Nakov},
+\bibitem[{Sahnan et~al.(2026)Sahnan, Corney, Larraz, Zagni, Miguez, Xie,
+  Gurevych, Churchill, Chakraborty, and Nakov}]{sahnan2026qraft}
+\bibinfo{author}{D.~Sahnan}, \bibinfo{author}{D.~Corney},
+  \bibinfo{author}{I.~Larraz}, \bibinfo{author}{G.~Zagni},
+  \bibinfo{author}{R.~Miguez}, \bibinfo{author}{Z.~Xie},
+  \bibinfo{author}{I.~Gurevych}, \bibinfo{author}{E.~Churchill},
+  \bibinfo{author}{T.~Chakraborty}, \bibinfo{author}{P.~Nakov},
 \newblock \bibinfo{title}{Can llms automate fact-checking article writing?},
-\newblock \bibinfo{journal}{Transactions of the Association for Computational Linguistics}  (\bibinfo{year}{2026}). \DOIprefix\doi{10.1162/TACL.a.644}, \bibinfo{note}{also available as arXiv:2503.17684}.
+\newblock \bibinfo{journal}{Transactions of the Association for Computational
+  Linguistics}  (\bibinfo{year}{2026}). \DOIprefix\doi{10.1162/TACL.a.644},
+  \bibinfo{note}{also available as arXiv:2503.17684}.
 %Type = Inproceedings
 \bibitem[{Xing et~al.(2025)Xing, Baldwin, and Lau}]{xing2025evidence}
-\bibinfo{author}{R.~Xing}, \bibinfo{author}{T.~Baldwin}, \bibinfo{author}{J.~H. Lau},
-\newblock \bibinfo{title}{Evaluating evidence attribution in generated fact checking explanations},
-\newblock in: \bibinfo{booktitle}{Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies}, \bibinfo{publisher}{Association for Computational Linguistics}, \bibinfo{year}{2025}, pp. \bibinfo{pages}{5475--5496}. \URLprefix \url{https://aclanthology.org/2025.naacl-long.282/}.
+\bibinfo{author}{R.~Xing}, \bibinfo{author}{T.~Baldwin}, \bibinfo{author}{J.~H.
+  Lau},
+\newblock \bibinfo{title}{Evaluating evidence attribution in generated fact
+  checking explanations},
+\newblock in: \bibinfo{booktitle}{Proceedings of the 2025 Conference of the
+  Nations of the Americas Chapter of the Association for Computational
+  Linguistics: Human Language Technologies}, \bibinfo{publisher}{Association
+  for Computational Linguistics}, \bibinfo{year}{2025}, pp.
+  \bibinfo{pages}{5475--5496}. \URLprefix
+  \url{https://aclanthology.org/2025.naacl-long.282/}.
 %Type = Inproceedings
-\bibitem[{Schellhammer et~al.(2026)Schellhammer, Hafid, Kartal, Boland, Dimitrov, Todorov, and Dietze}]{clef-checkthat:2026:task1}
-\bibinfo{author}{S.~Schellhammer}, \bibinfo{author}{S.~Hafid}, \bibinfo{author}{Y.~S. Kartal}, \bibinfo{author}{K.~Boland}, \bibinfo{author}{D.~Dimitrov}, \bibinfo{author}{K.~Todorov}, \bibinfo{author}{S.~Dietze},
-\newblock \bibinfo{title}{Overview of the {CLEF-2026 CheckThat!} lab task 1 on source retrieval for scientific web claims},
+\bibitem[{Schellhammer et~al.(2026)Schellhammer, Hafid, Kartal, Boland,
+  Dimitrov, Todorov, and Dietze}]{clef-checkthat:2026:task1}
+\bibinfo{author}{S.~Schellhammer}, \bibinfo{author}{S.~Hafid},
+  \bibinfo{author}{Y.~S. Kartal}, \bibinfo{author}{K.~Boland},
+  \bibinfo{author}{D.~Dimitrov}, \bibinfo{author}{K.~Todorov},
+  \bibinfo{author}{S.~Dietze},
+\newblock \bibinfo{title}{Overview of the {CLEF-2026 CheckThat!} lab task 1 on
+  source retrieval for scientific web claims},
 \newblock in:  \cite{clef2026-workingnotes}, \bibinfo{year}{2026}.
 %Type = Inproceedings
-\bibitem[{V et~al.(2026)V, Setty, Chungkham, Anand, and Alam}]{clef-checkthat:2026:task2}
-\bibinfo{author}{V.~V}, \bibinfo{author}{V.~Setty}, \bibinfo{author}{P.~Chungkham}, \bibinfo{author}{A.~Anand}, \bibinfo{author}{F.~Alam},
-\newblock \bibinfo{title}{Overview of the {CLEF-2026 CheckThat!} lab task 2 on fact-checking numerical claims},
+\bibitem[{V et~al.(2026)V, Setty, Chungkham, Anand, and
+  Alam}]{clef-checkthat:2026:task2}
+\bibinfo{author}{V.~V}, \bibinfo{author}{V.~Setty},
+  \bibinfo{author}{P.~Chungkham}, \bibinfo{author}{A.~Anand},
+  \bibinfo{author}{F.~Alam},
+\newblock \bibinfo{title}{Overview of the {CLEF-2026 CheckThat!} lab task 2 on
+  fact-checking numerical claims},
 \newblock in:  \cite{clef2026-workingnotes}, \bibinfo{year}{2026}.
 %Type = Inproceedings
-\bibitem[{Sahnan et~al.(2026)Sahnan, Chakraborty, and Nakov}]{clef-checkthat:2026:task3}
-\bibinfo{author}{D.~Sahnan}, \bibinfo{author}{T.~Chakraborty}, \bibinfo{author}{P.~Nakov},
-\newblock \bibinfo{title}{Overview of the {CLEF-2026 CheckThat!} lab task 3 on generating full fact-checking articles},
+\bibitem[{Sahnan et~al.(2026)Sahnan, Chakraborty, and
+  Nakov}]{clef-checkthat:2026:task3}
+\bibinfo{author}{D.~Sahnan}, \bibinfo{author}{T.~Chakraborty},
+  \bibinfo{author}{P.~Nakov},
+\newblock \bibinfo{title}{Overview of the {CLEF-2026 CheckThat!} lab task 3 on
+  generating full fact-checking articles},
 \newblock in:  \cite{clef2026-workingnotes}, \bibinfo{year}{2026}.
 %Type = Inproceedings
-\bibitem[{Glass et~al.(2022)Glass, Rossiello, Chowdhury, Naik, Cai, and Gliozzo}]{glass-etal-2022-re2g}
-\bibinfo{author}{M.~Glass}, \bibinfo{author}{G.~Rossiello}, \bibinfo{author}{M.~F.~M. Chowdhury}, \bibinfo{author}{A.~Naik}, \bibinfo{author}{P.~Cai}, \bibinfo{author}{A.~Gliozzo},
+\bibitem[{Glass et~al.(2022)Glass, Rossiello, Chowdhury, Naik, Cai, and
+  Gliozzo}]{glass-etal-2022-re2g}
+\bibinfo{author}{M.~Glass}, \bibinfo{author}{G.~Rossiello},
+  \bibinfo{author}{M.~F.~M. Chowdhury}, \bibinfo{author}{A.~Naik},
+  \bibinfo{author}{P.~Cai}, \bibinfo{author}{A.~Gliozzo},
 \newblock \bibinfo{title}{{R}e2{G}: Retrieve, rerank, generate},
-\newblock in: \bibinfo{booktitle}{Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies}, \bibinfo{publisher}{Association for Computational Linguistics}, \bibinfo{address}{Seattle, United States}, \bibinfo{year}{2022}, pp. \bibinfo{pages}{2701--2715}. \URLprefix \url{https://aclanthology.org/2022.naacl-main.194/}. \DOIprefix\doi{10.18653/v1/2022.naacl-main.194}.
+\newblock in: \bibinfo{booktitle}{Proceedings of the 2022 Conference of the
+  North American Chapter of the Association for Computational Linguistics:
+  Human Language Technologies}, \bibinfo{publisher}{Association for
+  Computational Linguistics}, \bibinfo{address}{Seattle, United States},
+  \bibinfo{year}{2022}, pp. \bibinfo{pages}{2701--2715}. \URLprefix
+  \url{https://aclanthology.org/2022.naacl-main.194/}.
+  \DOIprefix\doi{10.18653/v1/2022.naacl-main.194}.
 %Type = Misc
 \bibitem[{Lee and Hockenmaier(2025)}]{lee2025evaluating}
-\bibinfo{author}{J.~Lee}, \bibinfo{author}{J.~Hockenmaier}, \bibinfo{title}{Evaluating step-by-step reasoning traces: A survey}, \bibinfo{year}{2025}. \URLprefix \url{https://aclanthology.org/2025.findings-emnlp.94.pdf}.
+\bibinfo{author}{J.~Lee}, \bibinfo{author}{J.~Hockenmaier},
+  \bibinfo{title}{Evaluating step-by-step reasoning traces: A survey},
+  \bibinfo{year}{2025}. \URLprefix
+  \url{https://aclanthology.org/2025.findings-emnlp.94.pdf}.
 %Type = Misc
-\bibitem[{Qin et~al.(2024)Qin, Jagerman, Hui, Zhuang, Wu, Yan, Shen, Liu, Liu, Metzler, Wang, and Bendersky}]{prp}
-\bibinfo{author}{Z.~Qin}, \bibinfo{author}{R.~Jagerman}, \bibinfo{author}{K.~Hui}, \bibinfo{author}{H.~Zhuang}, \bibinfo{author}{J.~Wu}, \bibinfo{author}{L.~Yan}, \bibinfo{author}{J.~Shen}, \bibinfo{author}{T.~Liu}, \bibinfo{author}{J.~Liu}, \bibinfo{author}{D.~Metzler}, \bibinfo{author}{X.~Wang}, \bibinfo{author}{M.~Bendersky}, \bibinfo{title}{Large language models are effective text rankers with pairwise ranking prompting}, \bibinfo{year}{2024}. \URLprefix \url{https://arxiv.org/abs/2306.17563}.
+\bibitem[{Qin et~al.(2024)Qin, Jagerman, Hui, Zhuang, Wu, Yan, Shen, Liu, Liu,
+  Metzler, Wang, and Bendersky}]{prp}
+\bibinfo{author}{Z.~Qin}, \bibinfo{author}{R.~Jagerman},
+  \bibinfo{author}{K.~Hui}, \bibinfo{author}{H.~Zhuang},
+  \bibinfo{author}{J.~Wu}, \bibinfo{author}{L.~Yan}, \bibinfo{author}{J.~Shen},
+  \bibinfo{author}{T.~Liu}, \bibinfo{author}{J.~Liu},
+  \bibinfo{author}{D.~Metzler}, \bibinfo{author}{X.~Wang},
+  \bibinfo{author}{M.~Bendersky}, \bibinfo{title}{Large language models are
+  effective text rankers with pairwise ranking prompting},
+  \bibinfo{year}{2024}. \URLprefix \url{https://arxiv.org/abs/2306.17563}.
 %Type = Inproceedings
 \bibitem[{Jeong et~al.(2025)Jeong, Park, Hong, Lee, and Choo}]{PrePAIR}
-\bibinfo{author}{H.~Jeong}, \bibinfo{author}{C.~Park}, \bibinfo{author}{J.~Hong}, \bibinfo{author}{H.~Lee}, \bibinfo{author}{J.~Choo},
-\newblock \bibinfo{title}{The comparative trap: Pairwise comparisons amplifies biased preferences of {LLM} evaluators},
-\newblock in: \bibinfo{editor}{Y.~Belinkov}, \bibinfo{editor}{A.~Mueller}, \bibinfo{editor}{N.~Kim}, \bibinfo{editor}{H.~Mohebbi}, \bibinfo{editor}{H.~Chen}, \bibinfo{editor}{D.~Arad}, \bibinfo{editor}{G.~Sarti} (Eds.), \bibinfo{booktitle}{Proceedings of the 8th BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP}, \bibinfo{publisher}{Association for Computational Linguistics}, \bibinfo{address}{Suzhou, China}, \bibinfo{year}{2025}, pp. \bibinfo{pages}{79--108}. \URLprefix \url{https://aclanthology.org/2025.blackboxnlp-1.5/}. \DOIprefix\doi{10.18653/v1/2025.blackboxnlp-1.5}.
+\bibinfo{author}{H.~Jeong}, \bibinfo{author}{C.~Park},
+  \bibinfo{author}{J.~Hong}, \bibinfo{author}{H.~Lee},
+  \bibinfo{author}{J.~Choo},
+\newblock \bibinfo{title}{The comparative trap: Pairwise comparisons amplifies
+  biased preferences of {LLM} evaluators},
+\newblock in: \bibinfo{editor}{Y.~Belinkov}, \bibinfo{editor}{A.~Mueller},
+  \bibinfo{editor}{N.~Kim}, \bibinfo{editor}{H.~Mohebbi},
+  \bibinfo{editor}{H.~Chen}, \bibinfo{editor}{D.~Arad},
+  \bibinfo{editor}{G.~Sarti} (Eds.), \bibinfo{booktitle}{Proceedings of the 8th
+  BlackboxNLP Workshop: Analyzing and Interpreting Neural Networks for NLP},
+  \bibinfo{publisher}{Association for Computational Linguistics},
+  \bibinfo{address}{Suzhou, China}, \bibinfo{year}{2025}, pp.
+  \bibinfo{pages}{79--108}. \URLprefix
+  \url{https://aclanthology.org/2025.blackboxnlp-1.5/}.
+  \DOIprefix\doi{10.18653/v1/2025.blackboxnlp-1.5}.
 %Type = Article
 \bibitem[{Feng et~al.(2025)Feng, Hua, Lei, Xie, Yang, Long, and You}]{IRRanker}
-\bibinfo{author}{T.~Feng}, \bibinfo{author}{Z.~Hua}, \bibinfo{author}{Z.~Lei}, \bibinfo{author}{Y.~Xie}, \bibinfo{author}{S.~Yang}, \bibinfo{author}{B.~Long}, \bibinfo{author}{J.~You},
+\bibinfo{author}{T.~Feng}, \bibinfo{author}{Z.~Hua}, \bibinfo{author}{Z.~Lei},
+  \bibinfo{author}{Y.~Xie}, \bibinfo{author}{S.~Yang},
+  \bibinfo{author}{B.~Long}, \bibinfo{author}{J.~You},
 \newblock \bibinfo{title}{R1-ranker: Teaching llm rankers to reason},
-\newblock \bibinfo{journal}{arXiv preprint arXiv:2506.21638}  (\bibinfo{year}{2025}). \URLprefix \url{https://arxiv.org/abs/2506.21638}.
+\newblock \bibinfo{journal}{arXiv preprint arXiv:2506.21638}
+  (\bibinfo{year}{2025}). \URLprefix \url{https://arxiv.org/abs/2506.21638}.
 %Type = Proceedings
-\bibitem[{Salido et~al.(2026)Salido, Barr{\'o}n-Cede{\~n}o, {Alba Garc{\'i}a Seco de Herrera}, MacAvaney, and Stru{\ss}}]{clef2026-workingnotes}
-\bibinfo{editor}{E.~S. Salido}, \bibinfo{editor}{A.~Barr{\'o}n-Cede{\~n}o}, \bibinfo{editor}{{Alba Garc{\'i}a Seco de Herrera}}, \bibinfo{editor}{S.~MacAvaney}, \bibinfo{editor}{J.~M. Stru{\ss}} (Eds.), \bibinfo{title}{{CLEF} 2026 Working Notes}, CLEF~2026, \bibinfo{address}{Jena, Germany}, \bibinfo{year}{2026}.
+\bibitem[{Salido et~al.(2026)Salido, Barr{\'o}n-Cede{\~n}o, {Alba Garc{\'i}a
+  Seco de Herrera}, MacAvaney, and Stru{\ss}}]{clef2026-workingnotes}
+\bibinfo{editor}{E.~S. Salido}, \bibinfo{editor}{A.~Barr{\'o}n-Cede{\~n}o},
+  \bibinfo{editor}{{Alba Garc{\'i}a Seco de Herrera}},
+  \bibinfo{editor}{S.~MacAvaney}, \bibinfo{editor}{J.~M. Stru{\ss}} (Eds.),
+  \bibinfo{title}{{CLEF} 2026 Working Notes}, CLEF~2026,
+  \bibinfo{address}{Jena, Germany}, \bibinfo{year}{2026}.
 
 \end{thebibliography}
