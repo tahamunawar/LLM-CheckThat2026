@@ -174,10 +174,12 @@
   \bibinfo{author}{R.~Miguez}, \bibinfo{author}{Z.~Xie},
   \bibinfo{author}{I.~Gurevych}, \bibinfo{author}{E.~Churchill},
   \bibinfo{author}{T.~Chakraborty}, \bibinfo{author}{P.~Nakov},
-\newblock \bibinfo{title}{Can llms automate fact-checking article writing?},
+\newblock \bibinfo{title}{Can {LLM}s automate fact-checking article writing?},
 \newblock \bibinfo{journal}{Transactions of the Association for Computational
-  Linguistics}  (\bibinfo{year}{2026}). \DOIprefix\doi{10.1162/TACL.a.644},
-  \bibinfo{note}{also available as arXiv:2503.17684}.
+  Linguistics} \bibinfo{volume}{14} (\bibinfo{year}{2026})
+  \bibinfo{pages}{489--509}. \URLprefix
+  \url{https://aclanthology.org/2026.tacl-1.23/}.
+  \DOIprefix\doi{10.1162/TACL.a.644}.
 %Type = Inproceedings
 \bibitem[{Xing et~al.(2025)Xing, Baldwin, and Lau}]{xing2025evidence}
 \bibinfo{author}{R.~Xing}, \bibinfo{author}{T.~Baldwin}, \bibinfo{author}{J.~H.
