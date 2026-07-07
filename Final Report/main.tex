@@ -35,13 +35,13 @@
   Use permitted under Creative Commons License Attribution 4.0
   International (CC BY 4.0).}
 
-%%
 %% This command is for the conference information
-\conference{CLEF'26}
-
+\conference{CLEF 2026 Working Notes, 21 -- 24 September 2026, Jena, Germany}
 %%
 %% The "title" command
 \title{CheckMate at CheckThat! 2026: Fusion-Based Retrieval, Reasoning-Trace Ranking, and Citation-Controlled Article Generation}
+
+\title[mode=sub]{CheckThat! at CLEF 2026}
 
 % \tnotemark[1]
 % \tnotetext[1]{You can use this document as the template for preparing your
@@ -51,24 +51,16 @@
 %% The "author" command and its associated commands are used to define
 %% the authors and their affiliations.
 
-\author[1]{Taha Munawar}[%
-% orcid=0000-0001-7116-9338,
-email=tm08122@st.habib.edu.pk,
-]
+\author[1]{Taha Munawar}[email=tm08122@st.habib.edu.pk]
 \cormark[1]
+
+\author[1]{Abdullah Amir}[email=aa08453@st.habib.edu.pk]
+
+\author[1]{Faisal Alvi}[email=faisal.alvi@sse.habib.edu.pk]
+
+\author[1]{Abdul Samad}[email=abdul.samad@sse.habib.edu.pk]
+
 \address[1]{Dhanani School of Science and Engineering, Habib University, Karachi, Pakistan}
-
-\author[1]{Abdullah Amir}[%
-email=aa08453@st.habib.edu.pk,
-]
-
-\author[1]{Faisal Alvi}[%
-email=faisal.alvi@sse.habib.edu.pk,
-]
-
-\author[1]{Abdul Samad}[%
-email=abdul.samad@sse.habib.edu.pk,
-]
 
 \cortext[1]{Corresponding author.}
 
@@ -76,15 +68,17 @@ email=abdul.samad@sse.habib.edu.pk,
   This paper describes our participation as team \textit{CheckMate} in the CheckThat! 2026 Lab. We address three tasks covering different parts of the automated fact-checking pipeline: source retrieval for scientific web claims, fact-checking numerical claims through reasoning-trace ranking, and full fact-checking article generation. For Task 1, we develop a multilingual retrieval and reranking pipeline based on Qwen3 dense retrieval, listwise reranking, and calibrated score fusion. For Task 2, we explore pointwise, pairwise, and preference-based ranking methods for selecting useful reasoning traces for numerical claim verification. For Task 3, we build a staged article-generation pipeline that filters noisy evidence, extracts claim-aware evidence snippets, constructs verdict-aware evidence packets, and generates citation-controlled fact-checking articles. On the official evaluation phase, our Task 1 system achieved 0.7194 average MRR@5, our Task 2 Arabic and Spanish submissions achieved average scores of 0.5599 and 0.4093 respectively, and our Task 3 system achieved a mean score of 0.328.
 \end{abstract}
 
-%%
-%% Keywords. The author(s) should pick words that accurately describe
-%% the work being presented. Separate the keywords with commas.
-% \begin{keywords}
-  % LaTeX class \sep
-  % paper template \sep
-  % paper formatting \sep
-  % CEUR-WS
-% \end{keywords}
+%
+% Keywords. The author(s) should pick words that accurately describe
+% the work being presented. Separate the keywords with commas.
+\begin{keywords}
+  Fact-Checking \sep
+  Information Retrieval \sep
+  Numerical Claim Verification \sep
+  Reasoning-Trace Ranking \sep
+  Fact-Checking Article Generation \sep
+  CEUR-WS
+\end{keywords}
 
 %%
 %% This command processes the author and affiliation and title
@@ -428,8 +422,10 @@ The table below shows the results obtained on the validation dataset:
 \multirow{2}{*}{Spanish} & Macro-F1 & 0.3654 & --- & 0.3804 & 0.3807 & 0.4003 & \textbf{0.4049} \\
 & Recall@5 & 0.2401 & --- & 0.2425 & 0.2422 & 0.2090 & \textbf{0.2574} \\
 \bottomrule
-  \multicolumn{8}{p{15cm}}{\raggedright \footnotesize \textit English is reported as an internal result, whereas Spanish and Arabic have official submissions.}
 \end{tabular}
+
+\par\smallskip
+\footnotesize\textit{English is reported as an internal result, whereas Spanish and Arabic have official submissions.}
 \end{table}
 
 Due to last-minute submission issues, only the Arabic and Spanish runs were officially submitted on Codabench; the English result is reported as an internal project result.
@@ -487,10 +483,9 @@ For Task 3, we built a staged LLM-assisted article-generation pipeline with cons
 Across all three tasks, our results suggest that decomposed fact-checking pipelines are useful because retrieval, reasoning-trace ranking, evidence selection, and article generation introduce different failure modes. Future work should focus on stronger validation strategies, multilingual calibration, and tighter integration between citation-aware generation and entailment-based checking.
 
 \section*{Declaration on Generative AI}
-During the preparation of this work, the authors used Generative AI tools (Gemini and NotebookLM) for the following purposes: Generate literature review, Drafting content, and Paraphrase and reword. After using these tools, the authors reviewed, edited, and verified the resulting content as needed and take full responsibility for the publication's content.
+During the preparation of this work, the authors used Generative AI tools and services, including Gemini and NotebookLM, in order to: Generate literature review support from author-selected sources, Drafting content assistance, Paraphrase and reword, Improve writing style, and Grammar and spelling check. After using these tools/services, the authors reviewed, edited, and verified the content as needed and take full responsibility for the publication's content. The scientific contributions, system design, experiments, results, analysis, and conclusions were produced and validated by the human authors.
 
-Furthermore, separate from the writing process, Gemini models were utilized as core functional components within the implemented Task 3 system pipeline for source usability triage, claim-aware evidence extraction, and fact-checking article generation.
-
+Furthermore, separate from the writing process, Vertex AI Gemini models were utilized as core functional components within the implemented Task 3 system pipeline for source usability triage, claim-aware evidence extraction, and fact-checking article generation. These model uses are part of the described experimental system rather than authorship or manuscript preparation.
 %%
 %% Define the bibliography file to be used
 \bibliography{sample-ceur}
